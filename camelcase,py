@@ -1,0 +1,12 @@
+#python code goes here
+#python version :3 
+string=str(input("enter the string"));
+str1=string.title();
+print(str1);
+x=str1.split();
+a=len(x)
+i=0;
+s='';
+for i in range(0,a):
+    s=s+x[i];
+print(s);  
